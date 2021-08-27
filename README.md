@@ -4,10 +4,10 @@
 Implementation of a Master Control Program or MCP for short. The MCP handles 
 processes by scheduling and executing various jobs, giving each job appropriate cpu time, and handling the 
 respective termination/errors of these jobs. Developed in four parts.
-MCP V1: launch a workload
-MCP V2: control a workload using signal processing
-MCP V3: scheduling (simple round robin) that allocates static time slices to each process in order of its arrival
-MCP V4: additional information gathering functionality
+* MCP V1: launch a workload
+* MCP V2: control a workload using signal processing
+* MCP V3: scheduling (simple round robin) that allocates static time slices to each process in order of its arrival
+* MCP V4: additional information gathering functionality
  
 ## Background
 Signals are essentially ways to pass information to different processes. When a process is running, we can send 
